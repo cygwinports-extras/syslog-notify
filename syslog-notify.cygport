@@ -1,3 +1,6 @@
+NAME="syslog-notify"
+VERSION=0.2
+RELEASE=1
 CATEGORY="System"
 SUMMARY="Desktop notifications for syslog events"
 DESCRIPTION="syslog-notify, a utilty for modern Linux (and other Unix-like)
@@ -7,7 +10,7 @@ display (from all messages to only the most critical) is completely
 configurable through the standard syslog configuration files. Popups are
 handled via the freedesktop.org notification standard."
 HOMEPAGE="http://jtniehof.github.com/syslog-notify/"
-SRC_URI="https://github.com/downloads/jtniehof/${PN}/${P}.tar.bz2"
+SRC_URI="https://github.com/downloads/jtniehof/${NAME}/${NAME}-${VERSION}.tar.bz2"
 
 src_install() {
 	cd ${B}
